@@ -19,13 +19,14 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 53,
+          "version": 58,
           "minHeight": 650,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
               "widgetName": "Text1",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -35,28 +36,30 @@
               "type": "TEXT_WIDGET",
               "hideCard": false,
               "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "System Default",
               "dynamicBindingPathList": [
                 {
                   "key": "text"
                 }
               ],
               "leftColumn": 0,
-              "shouldTruncate": false,
               "truncateButtonColor": "#FFC13D",
               "text": "{{JSON.stringify(Api1.data, null, 2)}}",
               "key": "98mry8m0zt",
+              "labelTextSize": "0.875rem",
               "rightColumn": 46,
               "textAlign": "LEFT",
               "widgetId": "330pj0op5z",
               "isVisible": true,
               "fontStyle": "BOLD",
               "textColor": "#231F20",
-              "shouldScroll": false,
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "fontSize": "PARAGRAPH"
+              "borderRadius": "0px",
+              "fontSize": "0.875rem"
             }
           ]
         },
@@ -71,6 +74,10 @@
               "timeoutInMillisecond": 10000
             }
           ]
+        ],
+        "widgetNames": [
+          "MainContainer",
+          "Text1"
         ],
         "validOnPageLoadActions": true,
         "id": "Curl",
