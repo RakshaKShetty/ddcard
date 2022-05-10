@@ -1,0 +1,80 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "googlesheet",
+    "mock_apii",
+    "API",
+    "Curl",
+    "airtable"
+  ],
+  "publishedPageOrder": [
+    "googlesheet",
+    "mock_apii",
+    "API",
+    "Curl",
+    "airtable"
+  ],
+  "publishedDefaultPageName": "API",
+  "unpublishedDefaultPageName": "API",
+  "invisibleActionFields": {
+    "API_Api3": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "API_Api4": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "API_Api5": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Curl_Api1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "airtable_Api1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "googlesheet_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "googlesheet_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "googlesheet_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "googlesheet_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "mock_apii_mock_api": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedTheme": {
+    "name": "Classic",
+    "displayName": "Classic",
+    "isSystemTheme": true,
+    "deleted": false,
+    "policies": [
+      {
+        "permission": "read:themes",
+        "users": [
+          "anonymousUser"
+        ],
+        "groups": []
+      }
+    ]
+  },
+  "publishedLayoutmongoEscapedWidgets": {},
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
+}
